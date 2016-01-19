@@ -5,6 +5,14 @@
  *      Author: nhay7834
  */
 
+#include "SeconedC++Controller.h"
+
+int main()
+{
+	SeconedCController * baseController = new SeconedCController();
+	baseController->start();
+	return 0;
+}
 
 
 
